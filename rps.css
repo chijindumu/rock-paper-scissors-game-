@@ -1,0 +1,75 @@
+*{
+    color: #ffffff;
+    font-family: Verdana;
+    text-shadow: 1px 1px 2px #2D2E2C;
+    text-transform: capitalize;
+}
+body{
+    
+}
+main{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px -10px #111111;
+    background-color: hsla(246, 40%, 80%, 0.4);
+}
+#title{
+    font-size: calc(10vw/2);
+    text-align: center;
+}
+#screen, #wrapper, .start-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#screen{
+    flex-wrap: row wrap;
+    margin-top: 15px;
+}
+#player-score, #opponent-score, #move-el{
+    font-size: calc(10vw/2.5);
+}
+#player-score, #opponent-score{
+    flex: 0 0 30%;
+    margin-right: 10px;
+    text-align: center;
+    flex-direction: column;
+    padding: 5px;
+    background-color: hsla(345, 40%, 60%, 0.8);
+    box-shadow: 0 10px 10px -10px #111111;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+}
+#wrapper{
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: calc(10vw/2.3);
+    /*height: 20%;*/
+}
+button, #start{
+    width: 30%;
+    /*height: 30%;*/
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: #86CFD9;/*#81BBFF*/
+    font-size: calc(10vw/2.8);
+    text-align: center;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #454545;
+}
+#btn-wrapper{
+    width: 70%;
+    text-align: center;
+}
+
+#greeting{
+    margin-top: 30px;
+}
+#start{
+    margin-top: 5px;
+    text-align: center;
+}
